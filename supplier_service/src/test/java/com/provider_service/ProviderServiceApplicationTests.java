@@ -63,7 +63,7 @@ class ProviderServiceApplicationTests {
 
     @Test
     @Order(3)
-    @DisplayName("Supplier id not found")
+    @DisplayName("Return status 404 Supplier id not found")
     void getByNonExistentId() throws Exception {
         mockMvc.perform(get("/supplier/100")).andExpect(status().isNotFound());
     }
