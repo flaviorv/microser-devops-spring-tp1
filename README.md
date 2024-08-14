@@ -26,6 +26,11 @@
   <img src="./supplier_service/src/main/resources/static/prints/supplier-application-main.png"/>
 </p>
 
+* Connecting to Eureka server and enabling the registration
+<p align="center">
+  <img src="./supplier_service/src/main/resources/static/prints/app-propterties-supplier.png"/>
+</p>
+
 * Registered Supplier service
 <p align="center">
   <img src="./supplier_service/src/main/resources/static/prints/registering_in_eureka.png"/>
